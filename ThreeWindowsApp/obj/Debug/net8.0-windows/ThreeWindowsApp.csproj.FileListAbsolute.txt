@@ -1,0 +1,14 @@
+c:\anton\programming\C#\TaskC#\1\ThreeWindowsApp\bin\Debug\net8.0-windows\ThreeWindowsApp.exe
+c:\anton\programming\C#\TaskC#\1\ThreeWindowsApp\bin\Debug\net8.0-windows\ThreeWindowsApp.deps.json
+c:\anton\programming\C#\TaskC#\1\ThreeWindowsApp\bin\Debug\net8.0-windows\ThreeWindowsApp.runtimeconfig.json
+c:\anton\programming\C#\TaskC#\1\ThreeWindowsApp\bin\Debug\net8.0-windows\ThreeWindowsApp.dll
+c:\anton\programming\C#\TaskC#\1\ThreeWindowsApp\bin\Debug\net8.0-windows\ThreeWindowsApp.pdb
+c:\anton\programming\C#\TaskC#\1\ThreeWindowsApp\obj\Debug\net8.0-windows\ThreeWindowsApp.GeneratedMSBuildEditorConfig.editorconfig
+c:\anton\programming\C#\TaskC#\1\ThreeWindowsApp\obj\Debug\net8.0-windows\ThreeWindowsApp.AssemblyInfoInputs.cache
+c:\anton\programming\C#\TaskC#\1\ThreeWindowsApp\obj\Debug\net8.0-windows\ThreeWindowsApp.AssemblyInfo.cs
+c:\anton\programming\C#\TaskC#\1\ThreeWindowsApp\obj\Debug\net8.0-windows\ThreeWindowsApp.csproj.CoreCompileInputs.cache
+c:\anton\programming\C#\TaskC#\1\ThreeWindowsApp\obj\Debug\net8.0-windows\ThreeWindowsApp.dll
+c:\anton\programming\C#\TaskC#\1\ThreeWindowsApp\obj\Debug\net8.0-windows\refint\ThreeWindowsApp.dll
+c:\anton\programming\C#\TaskC#\1\ThreeWindowsApp\obj\Debug\net8.0-windows\ThreeWindowsApp.pdb
+c:\anton\programming\C#\TaskC#\1\ThreeWindowsApp\obj\Debug\net8.0-windows\ThreeWindowsApp.genruntimeconfig.cache
+c:\anton\programming\C#\TaskC#\1\ThreeWindowsApp\obj\Debug\net8.0-windows\ref\ThreeWindowsApp.dll
