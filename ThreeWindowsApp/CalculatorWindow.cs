@@ -39,17 +39,24 @@ namespace ThreeWindowsApp
             Controls.Add(resultLabel);
         }
 
-        private void CalculateSum(object sender, EventArgs e)
-        {
-            if (int.TryParse(input1.Text, out int liczba1) && int.TryParse(input2.Text, out int liczba2)  && int.TryParse(input3.Text, out int liczba3))
-            {
-                int suma = liczba1 + liczba2 + liczba3;
-                resultLabel.Text = "Suma liczb to: " + suma;
-            }
-            else
-            {
-                resultLabel.Text = "Błędne dane wejściowe.";
-            }
-        }
+       private void CalculateSum(object sender, EventArgs e)
+{
+    if (int.TryParse(input1.Text, out int liczba1) && int.TryParse(input2.Text, out int liczba2))
+    {
+        int suma = liczba1 + liczba2;
+        resultLabel.Text = "Suma liczb to: " + suma;
+    
+        MessageBox.Show("Obliczenia zakończone. Okno zostanie zamknięte.", "Kalkulator");
+
+        this.Close();
+    }
+    else
+    {
+        resultLabel.Text = "Błędne dane wejściowe.";
     }
 }
+
+        }
+    }
+
+
