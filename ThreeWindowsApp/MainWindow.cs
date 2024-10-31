@@ -8,9 +8,11 @@ namespace ThreeWindowsApp
         private Button infoButton;
         private Button calculatorButton;
 
+        private Button movieButton;
+
         public MainWindow()
         {
-            Text = "Główne Okno";
+            Text = "Main window";
 
             infoButton = new Button();
             infoButton.Text = "Otwórz Informacje";
@@ -22,8 +24,14 @@ namespace ThreeWindowsApp
             calculatorButton.Location = new System.Drawing.Point(30, 70);
             calculatorButton.Click += (sender, e) => OpenCalculatorWindow();
 
+            movieButton = new Button();
+            movieButton.Text = "Open movie";
+            movieButton.Location = new System.Drawing.Point(30, 110);
+            movieButton.Click += (sender, e) => OpenMovieWindow();
+
             Controls.Add(infoButton);
             Controls.Add(calculatorButton);
+            Controls.Add(movieButton);
         }
 
         private void OpenInfoWindow()
@@ -37,5 +45,12 @@ namespace ThreeWindowsApp
             CalculatorWindow calculatorWindow = new CalculatorWindow();
             calculatorWindow.Show();
         }
+
+          private void OpenMovieWindow()
+        {
+            MovieWindow OpenMovieWindow = new MovieWindow();
+            OpenMovieWindow.Show();
+        }
     }
 }
+
